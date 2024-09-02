@@ -63,7 +63,7 @@ class YahooDataset(object):
         texts = []
         labels_index = []  # The index of label of all input sentences, which takes the values 1,2,3,4
         doc_count = 0  # number of input sentences
-        path = r'./yahoo_answers_csv/{}.csv'.format(filetype)
+        path = r'/home/cyh/ZLCODE_SPO/data_set/yahoo_answers_csv/{}.csv'.format(filetype)
         csvfile = open(path, 'r')
         for line in csv.reader(csvfile, delimiter=',', quotechar='"'):
             content = line[1] + ". " + line[2]

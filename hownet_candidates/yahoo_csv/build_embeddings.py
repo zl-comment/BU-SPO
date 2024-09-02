@@ -13,9 +13,9 @@ from collections import Counter
 import data_utils_yahoo
 import glove_utils
 
-Yahoo_PATH = 'yahoo_answers_csv'
+Yahoo_PATH = '/home/cyh/ZLCODE_SPO/data_set/yahoo_answers_csv'
 MAX_VOCAB_SIZE = 50000
-GLOVE_PATH = 'glove.840B.300d.txt'
+GLOVE_PATH = '/home/cyh/ZLCODE_SPO/data_set/glove.840B.300d.txt'
 
 if not os.path.exists('aux_files'):
 	os.mkdir('aux_files')
